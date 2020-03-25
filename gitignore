@@ -38,7 +38,7 @@ Icon
 .com.apple.timemachine.donotpresent
 
 # Directories potentially created on remote AFP share
-node_modules/
+/node_modules/
 .AppleDB
 .AppleDesktop
 Network Trash Folder
