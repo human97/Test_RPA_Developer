@@ -1,0 +1,58 @@
+/* form */
+
+.form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    .disabled {
+        cursor: default;
+        opacity: .3;
+    }
+
+}
+
+.contact_form--btn {
+    margin: 20px 0 0 0;
+}
+
+.input_wrap {
+    display: flex;
+    flex-direction: column;
+}
+
+input,
+textarea {
+    padding: 30px 0 8px 0;
+    width: 280px;
+    border: 0;
+    border-bottom: 1px solid #D5DDE0;
+    background: transparent;
+    font-weight: normal;
+    font-size: 12px;
+    line-height: 15px;
+    /* identical to box height */
+    color: #455273;
+
+    &::placeholder {
+        font-weight: normal;
+        font-size: 12px;
+        line-height: 15px;
+        /* identical to box height */
+        color: #BABDC2;
+    }
+}
+
+/* Validation */
+.valid {
+    border: 2px solid green;
+}
+
+.invalid {
+    border: 2px solid red;
+}
+
+.alarm {
+    display: inline-block;
+    color: red;
+}
